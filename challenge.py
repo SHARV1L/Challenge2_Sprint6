@@ -44,7 +44,7 @@ class ProgramLearningBot:
                              "else: "
                                    "print("Good Night")",
                  "error": "time = 12"
-                           "if 16 < time < 19: "  # Reversed order, which is a logical error
+                           "if 16 < time < 19: " 
                                 "print("Good Evening")"
                             "elif 12 < time < 16: "
                                 "print("Good Afternoon")"
@@ -172,7 +172,7 @@ class ProgramLearningBot:
                                 "print(f"Number of spaces: {num_spaces}")",
                     "error": "def count_words_and_spaces(sentence): "
                                     "num_words = len(sentence.split())"
-                                    "num_spaces = sentence.count(' ')"
+                                    "num_spaces = sentence.count()"
                                     "return num_words, num_spaces"
 
                              "sentence = "This is an example sentence with spaces."
